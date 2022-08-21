@@ -57,7 +57,3 @@ and point to their origin.
 
 [astro-dead-links]: https://npmjs.org/astro-dead-links
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
-
-## License
-
-[Hippocratic License](LICENSE)
