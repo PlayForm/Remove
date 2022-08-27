@@ -5,7 +5,7 @@
 	"description": "🪦 AstroJS dead links remover. Remove your dead links from Astro.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Playform/astro-dead-links.git"
+		"url": "https://github.com/Playform/astro-dead-links.git"
 	},
 	"homepage": "https://github.com/Playform/astro-dead-links#readme",
 	"bugs": {
@@ -29,8 +29,8 @@
 		"deepmerge-ts": "4.2.1"
 	},
 	"devDependencies": {
-		"@playform/config": "0.0.2",
-		"@playform/scripts": "0.0.4",
+		"@playform/config": "0.0.3",
+		"@playform/scripts": "0.0.5",
 		"astro": "1.1.1"
 	}
 }
