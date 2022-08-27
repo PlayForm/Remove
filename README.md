@@ -33,21 +33,23 @@ pnpx astro add astro-dead-links
 First, install the `astro-dead-links` integration like so:
 
 ```
-npm install astro-dead-links
+npm install -D -E astro-dead-links
 ```
 
 Then, apply this integration to your `astro.config.*` file using the
 `integrations` property:
 
-**astro.config.mjs**
+**astro.config.ts**
 
-```js
-import { defineConfig } from "astro/config";
+```ts
+import type { AstroUserConfig } from "astro";
 import deadLinks from "astro-dead-links";
 
-export default defineConfig({
-	integrations: [deadLinks()],
-});
+export default (): AstroUserConfig => {
+	return {
+		integrations: [deadLinks()],
+	};
+};
 ```
 
 ## Getting started
