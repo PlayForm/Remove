@@ -1,22 +1,10 @@
 import type { AstroIntegration } from "astro";
 import { deepmerge } from "deepmerge-ts";
 
-import type Options from "./options";
+import defaultOptions, { Options } from "./options/index.js";
 
-/**
- * It takes in an object of options, and returns an object that Astro can use to create a plugin
- * @param {Options} integrationOptions - Options = {}
- * @returns A function that returns an object.
- */
-export default function createPlugin(
-	integrationOptions: Options = {}
-): AstroIntegration {
-	const defaultOptions: Options = {
-		url: "/",
-		logger: 2,
-	};
-
-	const _options = deepmerge(defaultOptions(), integrationOptions);
+export default (options: Options = {}): AstroIntegration => {
+	const _options = deepmerge(defaultOptions(), options);
 
 	_options.url = _options.url?.endsWith("/")
 		? _options.url
@@ -25,9 +13,7 @@ export default function createPlugin(
 	return {
 		name: "astro-dead-urls",
 		hooks: {
-			"astro:build:done": async () => {
-				// @TODO: Remove dead links
-			},
+			"astro:build:done": async () => {},
 		},
 	};
-}
+};

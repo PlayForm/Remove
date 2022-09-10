@@ -1,1 +1,1 @@
-import{deepmerge as n}from"deepmerge-ts";function e(r={}){var o;const t=n({url:"/",logger:2}(),r);return t.url=(o=t.url)!=null&&o.endsWith("/")?t.url:`${t.url}/`,{name:"astro-dead-urls",hooks:{"astro:build:done":async()=>{}}}}export{e as default};
+import{deepmerge as e}from"deepmerge-ts";import n from"./options/index.js";var p=(r={})=>{var t;const o=e(n(),r);return o.url=(t=o.url)!=null&&t.endsWith("/")?o.url:`${o.url}/`,{name:"astro-dead-urls",hooks:{"astro:build:done":async()=>{}}}};export{p as default};
