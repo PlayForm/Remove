@@ -5,13 +5,13 @@
 	"description": "🪦 AstroJS dead links remover. Remove your dead links from Astro.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/NikolaRHristov/astro-dead-links.git"
+		"url": "https://github.com/nikolarhristov/astro-dead-links.git"
 	},
-	"homepage": "https://github.com/NikolaRHristov/astro-dead-links#readme",
+	"homepage": "https://github.com/nikolarhristov/astro-dead-links#readme",
 	"bugs": {
-		"url": "https://github.com/NikolaRHristov/astro-dead-links/issues"
+		"url": "https://github.com/nikolarhristov/astro-dead-links/issues"
 	},
-	"author": "NIKOLAHRISTOV",
+	"author": "nikolarhristov",
 	"license": "MIT",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
