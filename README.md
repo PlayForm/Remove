@@ -45,9 +45,9 @@ Then, apply this integration to your `astro.config.*` file using the
 import type { AstroUserConfig } from "astro";
 import deadLinks from "astro-dead-links";
 
-export default (): AstroUserConfig => ({
+export default {
 	integrations: [deadLinks()],
-});
+} satisfies AstroUserConfig;
 ```
 
 ## Getting started
