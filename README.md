@@ -39,9 +39,8 @@ npm install -D -E astro-dead-links
 Then, apply this integration to your `astro.config.*` file using the
 `integrations` property:
 
-**astro.config.ts**
-
 ```ts
+// astro.config.ts
 import type { AstroUserConfig } from "astro";
 import deadLinks from "astro-dead-links";
 
@@ -57,5 +56,9 @@ and point to their origin.
 
 [astro-dead-links]: https://npmjs.org/astro-dead-links
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a history of changes to this integration.
 
 [![Built with Lightrix/npm](https://raw.githubusercontent.com/Lightrix/npm/main/.github/img/favicon-16x16.png)](https://github.com/Lightrix/npm)
