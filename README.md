@@ -39,14 +39,14 @@ npm install -D -E astro-dead-links
 Then, apply this integration to your `astro.config.*` file using the
 `integrations` property:
 
+**`astro.config.ts`**
+
 ```ts
-// astro.config.ts
-import type { AstroUserConfig } from "astro";
 import deadLinks from "astro-dead-links";
 
-export default (): AstroUserConfig => ({
+export default {
 	integrations: [deadLinks()],
-});
+}
 ```
 
 ## Getting started
