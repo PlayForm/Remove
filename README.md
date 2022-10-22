@@ -46,7 +46,7 @@ import deadLinks from "astro-dead-links";
 
 export default {
 	integrations: [deadLinks()],
-}
+};
 ```
 
 ## Getting started
