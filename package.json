@@ -11,11 +11,8 @@
 	"bugs": {
 		"url": "https://github.com/nikolaxhristov/astro-dead-links/issues"
 	},
-	"engines": {
-		"node": ">=14.21.0"
-	},
+	"private": false,
 	"main": "./dist/index.js",
-	"exports": "./dist/index.js",
 	"types": "./dist/index.d.ts",
 	"keywords": [
 		"astro-integration",
@@ -34,5 +31,8 @@
 		"@lightrix/config": "0.0.6",
 		"@lightrix/scripts": "0.0.14",
 		"astro": "1.6.5"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
