@@ -51,7 +51,7 @@ export default {
 
 ## Getting started
 
-The utility should now automatically remove all the deadlinks from your website
+The utility will now automatically remove all the deadlinks from your website
 and point to their origin.
 
 [astro-dead-links]: https://npmjs.org/astro-dead-links
