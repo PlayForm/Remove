@@ -3,5 +3,8 @@ export interface Options {
     url?: string;
     logger?: number;
 }
-declare const _default: () => Options;
+declare const _default: {
+    url: string;
+    logger: number;
+};
 export default _default;
