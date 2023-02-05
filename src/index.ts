@@ -1,17 +1,42 @@
-import type { AstroIntegration } from "astro";
-import { deepmerge } from "deepmerge-ts";
+import type { optionPath } from "files-pipeline/dist/options/index.js";
 
-import defaultOptions, { Options } from "./options/index.js";
+import defaults from "./options/index.js";
+
+import deepmerge from "files-pipeline/dist/lib/deepmerge.js";
+
+import type { AstroIntegration } from "astro";
+
+import type { Options } from "./options/index.js";
 
 export default (options: Options = {}): AstroIntegration => {
-	const _options = deepmerge(defaultOptions(), options);
+	for (const option in options) {
+		if (
+			Object.prototype.hasOwnProperty.call(options, option) &&
+			options[option] === true
+		) {
+			options[option] = defaults[option];
+		}
+	}
 
-	_options.url = _options.url?.endsWith("/")
-		? _options.url
-		: `${_options.url}/`;
+	options = deepmerge(defaults, options);
+
+	const paths = new Set<optionPath>();
+
+	if (typeof options["path"] !== "undefined") {
+		if (
+			options["path"] instanceof Array ||
+			options["path"] instanceof Set
+		) {
+			for (const path of options["path"]) {
+				paths.add(path);
+			}
+		} else {
+			paths.add(options["path"]);
+		}
+	}
 
 	return {
-		name: "astro-dead-urls",
+		name: "astro-dead-links",
 		hooks: {
 			"astro:build:done": async () => {},
 		},

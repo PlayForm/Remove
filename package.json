@@ -20,13 +20,14 @@
 		"astro-component",
 		"links",
 		"dead",
-		"astro"
+		"astro",
+		"performance"
 	],
 	"scripts": {
-		"build": "lightrix build src/index.ts"
+		"build": "lightrix build src/index.ts src/options/*.ts"
 	},
 	"dependencies": {
-		"deepmerge-ts": "4.2.2"
+		"files-pipeline": "0.0.3"
 	},
 	"devDependencies": {
 		"@lightrix/config": "0.0.7",

@@ -1,10 +1,6 @@
-export interface Options {
+import type { Options as OptionsBase } from "files-pipeline/dist/options/index.js";
+export interface Options extends OptionsBase {
     [key: string]: any;
-    url?: string;
-    logger?: number;
 }
-declare const _default: {
-    url: string;
-    logger: number;
-};
+declare const _default: Options;
 export default _default;
