@@ -22,8 +22,14 @@ follow the prompts:
 ```sh
 # Using NPM
 npx astro add astro-dead-links
+```
+
+```sh
 # Using Yarn
 yarn astro add astro-dead-links
+```
+
+```sh
 # Using PNPM
 pnpx astro add astro-dead-links
 ```
