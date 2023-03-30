@@ -19,17 +19,20 @@ command will:
 To install `astro-dead-links`, run the following from your project directory and
 follow the prompts:
 
- Using NPM:
+Using NPM:
+
 ```sh
 npx astro add astro-dead-links
 ```
 
- Using Yarn:
+Using Yarn:
+
 ```sh
 yarn astro add astro-dead-links
 ```
 
- Using PNPM:
+Using PNPM:
+
 ```sh
 pnpx astro add astro-dead-links
 ```
