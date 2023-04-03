@@ -30,9 +30,9 @@
 		"files-pipe": "0.0.1"
 	},
 	"devDependencies": {
-		"@lightrix/config": "0.0.7",
+		"@lightrix/config": "0.0.8",
 		"@lightrix/scripts": "0.1.6",
-		"astro": "2.1.8"
+		"astro": "2.1.9"
 	},
 	"publishConfig": {
 		"access": "public"
