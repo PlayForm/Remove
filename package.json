@@ -32,7 +32,7 @@
 		"files-pipe": "0.0.4"
 	},
 	"devDependencies": {
-		"astro": "2.3.4"
+		"astro": "2.4.1"
 	},
 	"publishConfig": {
 		"access": "public"
