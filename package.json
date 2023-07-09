@@ -1,20 +1,8 @@
 {
 	"name": "astro-dead-links",
 	"version": "0.0.1",
-	"type": "module",
-	"description": "🪦 AstroJS dead links remover. Remove your dead links from Astro.",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/NikolaRHristov/astro-dead-links.git"
-	},
-	"homepage": "https://github.com/NikolaRHristov/astro-dead-links#readme",
-	"bugs": {
-		"url": "https://github.com/NikolaRHristov/astro-dead-links/issues"
-	},
-	"license": "MIT",
 	"private": false,
-	"main": "./dist/index.js",
-	"types": "./dist/index.d.ts",
+	"description": "🪦 AstroJS dead links remover. Remove your dead links from Astro.",
 	"keywords": [
 		"astro-integration",
 		"astro-component",
@@ -23,6 +11,18 @@
 		"astro",
 		"performance"
 	],
+	"homepage": "https://github.com/NikolaRHristov/astro-dead-links#readme",
+	"bugs": {
+		"url": "https://github.com/NikolaRHristov/astro-dead-links/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NikolaRHristov/astro-dead-links.git"
+	},
+	"license": "MIT",
+	"type": "module",
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
 	"scripts": {
 		"prepublishOnly": "lightrix build 'src/**/*.ts'"
 	},
