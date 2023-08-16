@@ -26,10 +26,10 @@
 		"prepublishOnly": "Lightrix build 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"files-pipe": "2.0.8"
+		"files-pipe": "2.0.15"
 	},
 	"devDependencies": {
-		"astro": "2.10.5"
+		"astro": "2.10.9"
 	},
 	"publishConfig": {
 		"access": "public"
