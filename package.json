@@ -1,7 +1,7 @@
 {
 	"name": "astro-dead-links",
 	"version": "0.0.1",
-	"private": "false",
+	"private": false,
 	"description": "🪦 AstroJS dead links remover. Remove your dead links from Astro.",
 	"keywords": [
 		"astro-integration",
