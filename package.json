@@ -1,7 +1,7 @@
 {
 	"name": "astro-dead-links",
 	"version": "0.0.1",
-	"private": false,
+	"private": "false",
 	"description": "🪦 AstroJS dead links remover. Remove your dead links from Astro.",
 	"keywords": [
 		"astro-integration",
@@ -20,6 +20,11 @@
 		"url": "git+https://github.com/NikolaRHristov/astro-dead-links.git"
 	},
 	"license": "MIT",
+	"author": {
+		"name": "Nikola Hristov",
+		"email": "nikola@nikolahristov.tech",
+		"url": "https://nikolahristov.tech"
+	},
 	"type": "module",
 	"main": "./Target/Index.js",
 	"types": "./Target/Index.d.ts",
