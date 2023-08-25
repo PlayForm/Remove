@@ -1,8 +1,8 @@
 import type { AstroIntegration } from "astro";
-import type { Options } from "./Option/Index.js";
+import type { Option } from "./Option/Index.js";
 import defaults from "./Option/Index.js";
 
-export default (Options: Options = {}): AstroIntegration => {
+export default (Options: Option = {}): AstroIntegration => {
 	for (const Option in Options) {
 		if (
 			Object.prototype.hasOwnProperty.call(Options, Option) &&
