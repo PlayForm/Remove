@@ -1,6 +1,6 @@
 import type { Option as _Option } from "files-pipe";
-export interface Options extends _Option {
+export interface Option extends _Option {
     [key: string]: any;
 }
-declare const _default: Options;
+declare const _default: Option;
 export default _default;
