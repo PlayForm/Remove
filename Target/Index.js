@@ -1,1 +1,0 @@
-import r from"./Option/Index.js";var p=(o={})=>{for(const t in o)Object.prototype.hasOwnProperty.call(o,t)&&o[t]===!0&&(o[t]=r[t]);const e=deepmerge(r,o),n=new Set;if(typeof e.path<"u"&&(e.path instanceof Array||e.path instanceof Set))for(const t of e.path)n.add(t);return{name:"astro-dead-links",hooks:{"astro:build:done":async({dir:t})=>{n.size||n.add(t)}}}};export{p as default};
