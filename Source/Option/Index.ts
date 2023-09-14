@@ -7,5 +7,5 @@ export interface Option extends _Option {
 }
 
 export default Merge(Default, {
-	Pipe: {},
+	Action: {},
 } satisfies Option) as Option;
