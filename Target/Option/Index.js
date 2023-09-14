@@ -1,1 +1,1 @@
-import{Default as t,Merge as e}from"files-pipe";var p=e(t,{Pipe:{}});export{p as default};
+import{Default as t,Merge as e}from"files-pipe";var o=e(t,{Action:{}});export{o as default};
