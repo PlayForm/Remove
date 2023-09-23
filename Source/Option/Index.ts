@@ -9,4 +9,4 @@ export interface Option extends _Option {
 
 export default Merge(Default, {
 	Action: {},
-} satisfies Option) as Option;
+} satisfies Option);
