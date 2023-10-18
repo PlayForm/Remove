@@ -41,7 +41,7 @@ pnpx astro add astro-dead-links
 
 First, install the `astro-dead-links` integration like so:
 
-```
+```sh
 npm install -D -E astro-dead-links
 ```
 
