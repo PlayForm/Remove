@@ -8,8 +8,7 @@ declare const _default: Omit<{} & {
         Folder: string;
     };
     Path: string;
-    Exclude: false;
-    Files: string;
+    Logger: 2;
     Action: Omit<{} & {
         Read: ({ Input }: import("files-pipe/Target/Interface/File").default) => Promise<string>;
         Wrote: ({ Buffer }: import("files-pipe/Target/Interface/File").default) => Promise<import("files-pipe/Target/Type/Buffer").Type>;
@@ -19,6 +18,7 @@ declare const _default: Omit<{} & {
         Fulfilled: ({ Files }: import("files-pipe/Target/Interface/Plan").default) => Promise<string | false>;
         Changed: (Plan: import("files-pipe/Target/Interface/Plan").default) => Promise<import("files-pipe/Target/Interface/Plan").default>;
     }, "__proto__">;
-    Logger: 2;
+    Files: string;
+    Exclude: false;
 }, "__proto__">;
 export default _default;
