@@ -2,7 +2,7 @@
  * @module Integration
  *
  */
-export default ((...[_Option = {}]: Parameters<Type>) => {
+export default (((...[_Option = {}]: Parameters<Type>) => {
 	for (const Option in _Option) {
 		if (
 			Object.prototype.hasOwnProperty.call(_Option, Option) &&
@@ -34,10 +34,10 @@ export default ((...[_Option = {}]: Parameters<Type>) => {
 			},
 		},
 	};
-}) satisfies Type as Type;
+}) satisfies Type as Type);
 
-import type Type from "../Interface/Integraton.js";
 import type Path from "files-pipe/Target/Type/Path.js";
+import type Type from "../Interface/Integraton.js";
 
 export const { default: Default } = await import("../Variable/Option.js");
 
