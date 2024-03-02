@@ -32,10 +32,10 @@
 		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"files-pipe": "2.1.8"
+		"files-pipe": "2.1.9"
 	},
 	"devDependencies": {
-		"astro": "4.4.5",
+		"astro": "4.4.6",
 		"typescript-esbuild": "0.3.10"
 	},
 	"publishConfig": {
