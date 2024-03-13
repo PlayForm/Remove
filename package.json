@@ -1,23 +1,23 @@
 {
-	"name": "astro-dead-links",
+	"name": "astro-dead-link",
 	"version": "0.0.1",
 	"private": false,
 	"description": "🪦 AstroJS dead links remover. Remove your dead links from Astro.",
 	"keywords": [
 		"astro-integration",
 		"astro-component",
-		"links",
+		"link",
 		"dead",
 		"astro",
 		"performance"
 	],
-	"homepage": "https://github.com/NikolaRHristov/astro-dead-links#readme",
+	"homepage": "https://github.com/Playform/AstroDeadLink#readme",
 	"bugs": {
-		"url": "https://github.com/NikolaRHristov/astro-dead-links/issues"
+		"url": "https://github.com/Playform/AstroDeadLink/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/NikolaRHristov/astro-dead-links.git"
+		"url": "git+https://github.com/Playform/AstroDeadLink.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {

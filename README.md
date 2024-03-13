@@ -1,4 +1,4 @@
-# [astro-dead-links] 🪦
+# [astro-dead-link] 🪦
 
 This **[Astro integration][astro-integration]** will automatically remove all
 the dead links in your website.
@@ -16,33 +16,33 @@ command will:
 1. (Optionally) Install all necessary dependencies and peer dependencies
 2. (Also optionally) Update your `astro.config.*` file to apply this integration
 
-To install `astro-dead-links`, run the following from your project directory and
+To install `astro-dead-link`, run the following from your project directory and
 follow the prompts:
 
 Using NPM:
 
 ```sh
-npx astro add astro-dead-links
+npx astro add astro-dead-link
 ```
 
 Using Yarn:
 
 ```sh
-yarn astro add astro-dead-links
+yarn astro add astro-dead-link
 ```
 
 Using PNPM:
 
 ```sh
-pnpx astro add astro-dead-links
+pnpx astro add astro-dead-link
 ```
 
 ### Install dependencies manually
 
-First, install the `astro-dead-links` integration like so:
+First, install the `astro-dead-link` integration like so:
 
 ```sh
-npm install -D -E astro-dead-links
+npm install -D -E astro-dead-link
 ```
 
 Then, apply this integration to your `astro.config.*` file using the
@@ -51,7 +51,7 @@ Then, apply this integration to your `astro.config.*` file using the
 **`astro.config.ts`**
 
 ```ts
-import deadLinks from "astro-dead-links";
+import deadLinks from "astro-dead-link";
 
 export default {
 	integrations: [deadLinks()],
@@ -63,7 +63,7 @@ export default {
 The utility will now automatically remove all the deadlinks from your website
 and point to their origin.
 
-[astro-dead-links]: https://npmjs.org/astro-dead-links
+[astro-dead-link]: https://npmjs.org/astro-dead-link
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
