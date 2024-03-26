@@ -11,19 +11,19 @@
 		"astro",
 		"performance"
 	],
-	"homepage": "HTTPS://GitHub.Com/Playform/AstroDeadLink#readme",
+	"homepage": "https://github.com/Playform/AstroDeadLink#readme",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/Playform/AstroDeadLink/issues"
+		"url": "https://github.com/Playform/AstroDeadLink/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://GitHub.Com/Playform/AstroDeadLink.git"
+		"url": "git+https://github.com/Playform/AstroDeadLink.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
 		"name": "Playform",
 		"email": "Hello@Playform.Cloud",
-		"url": "HTTPS://Playform.Cloud"
+		"url": "https://playform.cloud"
 	},
 	"type": "module",
 	"main": "./Target/Index.js",
