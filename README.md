@@ -63,7 +63,7 @@ export default {
 The utility will now automatically remove all the deadlinks from your website
 and point to their origin.
 
-[astro-dead-link]: https://NPMJS.Org/astro-dead-link
+[astro-dead-link]: https://npmjs.org/astro-dead-link
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
