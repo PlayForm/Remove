@@ -36,11 +36,7 @@
 		"files-pipe": "2.1.16"
 	},
 	"devDependencies": {
-<<<<<<< HEAD
 		"typescript-document": "0.0.7",
-=======
-		"typescript-document": "0.0.6",
->>>>>>> f25d5ac8624c8a473442801f4e41d1dc4650590f
 		"typescript-esbuild": "0.4.9",
 		"astro": "4.5.10"
 	},
