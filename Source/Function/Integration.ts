@@ -25,7 +25,7 @@ export default ((...[_Option = {}]: Parameters<Type>) => {
 	}
 
 	return {
-		name: "astro-dead-link",
+		name: "dead-link-astro",
 		hooks: {
 			"astro:build:done": async ({ dir }) => {
 				if (!Paths.size) {
