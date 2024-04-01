@@ -9,7 +9,7 @@
 		"astro",
 		"performance"
 	],
-	"homepage": "https://github.com/Playform/DeadLinkAstro#readme",
+	"homepage": "https://github.com/Playform/DeadLinkAstro#ReadMe",
 	"bugs": {
 		"url": "https://github.com/Playform/DeadLinkAstro/issues"
 	},
@@ -31,7 +31,7 @@
 		"prepublishOnly": "TypeScriptESBuild 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"@playform/file-pipe": "0.0.1"
+		"@playform/file-pipe": "0.0.2"
 	},
 	"devDependencies": {
 		"astro": "4.5.12",

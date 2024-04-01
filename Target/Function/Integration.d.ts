@@ -24,4 +24,4 @@ export declare const Default: Omit<{} & {
     File: string;
     Exclude: false;
 }, "__proto__">;
-export declare const Merge: import("typescript-esbuild/Target/Interface/Merge.js").default<import("typescript-esbuild/Target/Interface/Merge.js").Generic>;
+export declare const Merge: import("@playform/build/Target/Interface/Merge.js").default<import("@playform/build/Target/Interface/Merge.js").Generic>;
