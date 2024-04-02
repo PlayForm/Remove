@@ -36,7 +36,7 @@ export default ((...[_Option = {}]: Parameters<Type>) => {
 	};
 }) satisfies Type as Type;
 
-import type Path from "@playform/file-pipe/Target/Type/Path.js";
+import type Path from "@playform/pipe/Target/Type/Path.js";
 import type Type from "../Interface/Integraton.js";
 
 export const { default: Default } = await import("../Variable/Option.js");
