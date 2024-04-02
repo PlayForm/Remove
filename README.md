@@ -1,4 +1,4 @@
-# [dead-link-astro] 🪦
+# [@playform/remove] 🪦
 
 This **[Astro integration][astro-integration]** will automatically remove all
 the dead links in your website.
@@ -16,33 +16,33 @@ command will:
 1. (Optionally) Install all necessary dependencies and peer dependencies
 2. (Also optionally) Update your `astro.config.*` file to apply this integration
 
-To install `dead-link-astro`, run the following from your project directory and
+To install `@playform/remove`, run the following from your project directory and
 follow the prompts:
 
 Using NPM:
 
 ```sh
-npx astro add dead-link-astro
+npx astro add @playform/remove
 ```
 
 Using Yarn:
 
 ```sh
-yarn astro add dead-link-astro
+yarn astro add @playform/remove
 ```
 
 Using PNPM:
 
 ```sh
-pnpx astro add dead-link-astro
+pnpx astro add @playform/remove
 ```
 
 ### Install dependencies manually
 
-First, install the `dead-link-astro` integration like so:
+First, install the `@playform/remove` integration like so:
 
 ```sh
-npm install -D -E dead-link-astro
+npm install -D -E @playform/remove
 ```
 
 Then, apply this integration to your `astro.config.*` file using the
@@ -51,7 +51,7 @@ Then, apply this integration to your `astro.config.*` file using the
 **`astro.config.ts`**
 
 ```ts
-import deadLinks from "dead-link-astro";
+import deadLinks from "@playform/remove";
 
 export default {
 	integrations: [deadLinks()],
@@ -63,7 +63,7 @@ export default {
 The utility will now automatically remove all the deadlinks from your website
 and point to their origin.
 
-[dead-link-astro]: https://npmjs.org/dead-link-astro
+[@playform/remove]: https://npmjs.org/@playform/remove
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog

@@ -25,7 +25,7 @@ export default ((...[_Option = {}]: Parameters<Type>) => {
 	}
 
 	return {
-		name: "dead-link-astro",
+		name: "@playform/remove",
 		hooks: {
 			"astro:build:done": async ({ dir }) => {
 				if (!Paths.size) {
