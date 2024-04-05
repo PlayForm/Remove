@@ -27,13 +27,15 @@
 	"main": "./Target/Index.js",
 	"types": "./Target/Index.d.ts",
 	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"@playform/pipe": "0.0.1"
+		"@playform/pipe": "0.0.2"
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.5",
+		"@playform/document": "0.0.6",
 		"astro": "4.5.16"
 	},
 	"publishConfig": {
