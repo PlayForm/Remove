@@ -2,7 +2,7 @@
  * @module Integration
  *
  */
-export default ((...[_Option = {}]: Parameters<Type>) => {
+export default ((...[_Option = {}]: Parameters<Interface>) => {
 	for (const Option in _Option) {
 		if (
 			Object.prototype.hasOwnProperty.call(_Option, Option) &&
@@ -34,10 +34,10 @@ export default ((...[_Option = {}]: Parameters<Type>) => {
 			},
 		},
 	};
-}) satisfies Type as Type;
+}) satisfies Interface as Interface;
 
 import type Path from "@playform/pipe/Target/Type/Path.js";
-import type Type from "@Interface/Integraton.js";
+import type Interface from "@Interface/Integraton.js";
 
 export const { default: Default } = await import("@Variable/Option.js");
 
