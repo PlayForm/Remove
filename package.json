@@ -2,7 +2,7 @@
 	"name": "@playform/remove",
 	"version": "0.0.1",
 	"private": false,
-	"description": "🪦 AstroJS dead links remover. Remove your dead links from Astro.",
+	"description": "🪦 Remove",
 	"keywords": [
 		"link",
 		"dead",
