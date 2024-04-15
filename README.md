@@ -63,8 +63,8 @@ export default {
 The utility will now automatically remove all the deadlinks from your website
 and point to their origin.
 
-[@playform/remove]: https://npmjs.org/@playform/remove
-[astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
+[@playform/remove]: HTTPS://npmjs.org/@playform/remove
+[astro-integration]: HTTPS://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
 
