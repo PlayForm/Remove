@@ -3,22 +3,33 @@
  *
  */
 declare const _default: Omit<{} & {
+    File: string;
     Cache: {
         Search: string;
         Folder: string;
     };
     Path: string;
-    Logger: 2;
+    Logger: number;
     Action: Omit<{} & {
-        Read: ({ Input }: import("@playform/pipe/Target/Interface/File").default) => Promise<string>;
-        Wrote: ({ Buffer }: import("@playform/pipe/Target/Interface/File").default) => Promise<import("@playform/pipe/Target/Type/Buffer").Type>;
-        Passed: (On: import("@playform/pipe/Target/Interface/File").default) => Promise<true>;
-        Failed: ({ Input }: import("@playform/pipe/Target/Interface/File").default) => Promise<string>;
-        Accomplished: ({ Input, Output }: import("@playform/pipe/Target/Interface/File").default) => Promise<string>;
-        Fulfilled: ({ File }: import("@playform/pipe/Target/Interface/Plan").default) => Promise<string | false>;
-        Changed: (Plan: import("@playform/pipe/Target/Interface/Plan").default) => Promise<import("@playform/pipe/Target/Interface/Plan").default>;
+        Read: ({ Input: e }: {
+            Input: any;
+        }) => Promise<string>;
+        Wrote: ({ Buffer: e }: {
+            Buffer: any;
+        }) => Promise<any>;
+        Passed: (e: any) => Promise<any>;
+        Failed: ({ Input: e }: {
+            Input: any;
+        }) => Promise<string>;
+        Accomplished: ({ Input: e, Output: a }: {
+            Input: any;
+            Output: any;
+        }) => Promise<string>;
+        Fulfilled: ({ File: e }: {
+            File: any;
+        }) => Promise<string | false>;
+        Changed: (e: any) => Promise<any>;
     }, "__proto__">;
-    File: string;
-    Exclude: false;
+    Exclude: boolean;
 }, "__proto__">;
 export default _default;
