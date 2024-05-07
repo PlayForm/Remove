@@ -27,8 +27,8 @@ export default ((...[_Option = {}]: Parameters<Interface>) => {
 	return {
 		name: "@playform/remove",
 		hooks: {
-			"astro:build:done": async ({ dir }) => {
-				if (!Paths.size) {
+			"astro:build:done": ({ dir }) => {
+				if (Paths.size === 0) {
 					Paths.add(dir);
 				}
 			},
@@ -36,7 +36,7 @@ export default ((...[_Option = {}]: Parameters<Interface>) => {
 	};
 }) satisfies Interface as Interface;
 
-import type Interface from "@Interface/Integraton.js";
+import type Interface from "../Interface/Integraton.js";
 import type Path from "@playform/pipe/Target/Type/Path.js";
 
 export const { default: Default } = await import("@Variable/Option.js");
