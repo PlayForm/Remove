@@ -6,33 +6,22 @@ declare const _default: Interface;
 export default _default;
 import type Interface from "../Interface/Integraton.js";
 export declare const Default: Omit<{} & {
-    File: string;
     Cache: {
         Search: string;
         Folder: string;
     };
     Path: string;
-    Logger: number;
+    Logger: 2;
     Action: Omit<{} & {
-        Read: ({ Input: e }: {
-            Input: any;
-        }) => Promise<string>;
-        Wrote: ({ Buffer: e }: {
-            Buffer: any;
-        }) => Promise<any>;
-        Passed: (e: any) => Promise<any>;
-        Failed: ({ Input: e }: {
-            Input: any;
-        }) => Promise<string>;
-        Accomplished: ({ Input: e, Output: a }: {
-            Input: any;
-            Output: any;
-        }) => Promise<string>;
-        Fulfilled: ({ File: e }: {
-            File: any;
-        }) => Promise<string | false>;
-        Changed: (e: any) => Promise<any>;
+        Read: ({ Input }: import("@playform/pipe/Target/Interface/File.js").default) => Promise<string>;
+        Wrote: ({ Buffer }: import("@playform/pipe/Target/Interface/File.js").default) => Promise<import("@playform/pipe/Target/Type/Buffer.js").Type>;
+        Passed: (On: import("@playform/pipe/Target/Interface/File.js").default) => Promise<true>;
+        Failed: ({ Input }: import("@playform/pipe/Target/Interface/File.js").default) => Promise<string>;
+        Accomplished: ({ Input, Output }: import("@playform/pipe/Target/Interface/File.js").default) => Promise<string>;
+        Fulfilled: ({ File }: import("@playform/pipe/Target/Interface/Plan.js").default) => Promise<string | false>;
+        Changed: (Plan: import("@playform/pipe/Target/Interface/Plan.js").default) => Promise<import("@playform/pipe/Target/Interface/Plan.js").default>;
     }, "__proto__">;
-    Exclude: boolean;
+    File: string;
+    Exclude: false;
 }, "__proto__">;
 export declare const Merge: import("@playform/build/Target/Interface/Merge.js").default<import("@playform/build/Target/Interface/Merge.js").Generic>;
