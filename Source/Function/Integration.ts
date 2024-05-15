@@ -34,7 +34,11 @@ export default ((...[_Option = {}]: Parameters<Interface>) => {
 			},
 		},
 	};
+<<<<<<< HEAD
 }) satisfies Interface;
+=======
+}) satisfies Interface as Interface;
+>>>>>>> c5e311607f46e35736c59843f04e4850fb9290fd
 
 import type Interface from "../Interface/Integraton.js";
 import type Path from "@playform/pipe/Target/Type/Path.js";
