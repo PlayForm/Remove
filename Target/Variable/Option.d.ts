@@ -2,6 +2,7 @@
  * @module Option
  *
  */
+<<<<<<< HEAD
 declare const _default: Omit<{} & {
     File: string;
     Cache: {
@@ -32,4 +33,7 @@ declare const _default: Omit<{} & {
     }, "__proto__">;
     Exclude: boolean;
 }, "__proto__">;
+=======
+declare const _default: any;
+>>>>>>> 6c5b578f53d1c28a0b8a8e76678f3fc52fb08174
 export default _default;
