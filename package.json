@@ -3,13 +3,7 @@
 	"version": "0.0.1",
 	"private": false,
 	"description": "🪦 Remove",
-	"keywords": [
-		"link",
-		"dead",
-		"astro",
-		"performance",
-		"playform"
-	],
+	"keywords": ["link", "dead", "astro", "performance", "playform"],
 	"homepage": "HTTPS://GitHub.Com/PlayForm/Remove#readme",
 	"bugs": {
 		"url": "HTTPS://GitHub.Com/PlayForm/Remove/issues"
