@@ -3,7 +3,13 @@
 	"version": "0.0.1",
 	"private": false,
 	"description": "🪦 Remove",
-	"keywords": ["link", "dead", "astro", "performance", "playform"],
+	"keywords": [
+		"link",
+		"dead",
+		"astro",
+		"performance",
+		"playform"
+	],
 	"homepage": "HTTPS://GitHub.Com/PlayForm/Remove#readme",
 	"bugs": {
 		"url": "HTTPS://GitHub.Com/PlayForm/Remove/issues"
@@ -25,11 +31,11 @@
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"@playform/pipe": "0.0.5"
+		"@playform/pipe": "0.0.5",
+		"astro": "*"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.10",
-		"astro": "4.10.0"
+		"@playform/build": "0.0.10"
 	},
 	"publishConfig": {
 		"access": "public"

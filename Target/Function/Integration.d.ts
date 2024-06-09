@@ -5,5 +5,5 @@
 declare const _default: Interface;
 export default _default;
 import type Interface from "../Interface/Integraton.js";
-export declare const Default: unknown;
-export declare const Merge: import("@playform/build/Target/Interface/Merge.js").default<import("@playform/build/Target/Interface/Merge.js").Generic>;
+export declare const Default: any;
+export declare const Merge: any;

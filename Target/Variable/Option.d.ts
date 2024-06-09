@@ -2,5 +2,5 @@
  * @module Option
  *
  */
-declare const _default: unknown;
+declare const _default: any;
 export default _default;
