@@ -3,7 +3,7 @@
 This **[Astro integration][astro-integration]** will automatically remove all
 the dead links in your website.
 
-## Installation
+## 🚀 Installation
 
 There are two ways to add integrations to your project. Let's try the most
 convenient option first!
