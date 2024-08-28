@@ -33,7 +33,7 @@
 	},
 	"dependencies": {
 		"@playform/pipe": "0.1.1",
-		"astro": "4.14.5"
+		"astro": "4.14.6"
 	},
 	"devDependencies": {
 		"@playform/build": "0.1.4"
