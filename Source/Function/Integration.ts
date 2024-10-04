@@ -1,3 +1,7 @@
+import type Path from "@playform/pipe/Target/Type/Path.js";
+
+import type Interface from "../Interface/Integraton.js";
+
 /**
  * @module Integration
  *
@@ -35,9 +39,6 @@ export default ((...[_Option = {}]: Parameters<Interface>) => {
 		},
 	};
 }) satisfies Interface as Interface;
-
-import type Path from "@playform/pipe/Target/Type/Path.js";
-import type Interface from "../Interface/Integraton.js";
 
 export const { default: Default } = await import("@Variable/Option.js");
 
