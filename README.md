@@ -1,6 +1,6 @@
 # [@playform/remove] 🪦
 
-This **[Astro integration][astro-integration]** will automatically remove all
+This **[`Astro integration`][astro-integration]** will automatically remove all
 the dead links in your website.
 
 ## 🚀 Installation
